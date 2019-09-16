@@ -2,8 +2,8 @@
   url: https://github.com/aelbore/create-custom-elements
   description: Boilerplate to create custom elements
 
-- name: geocine/custom-elements-ts
-  url: https://github.com/geocine/custom-elements-ts
+- name: nuevolia/custom-elements-ts
+  url: https://github.com/nuevolia/custom-elements-ts
   description: Create native custom elements using Typescript
 
 - name: goasis

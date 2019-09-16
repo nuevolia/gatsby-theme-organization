@@ -17,15 +17,15 @@ To use this theme in your Gatsby sites, follow these instructions:
 1.  Install the theme
 
     ```sh
-    npm install --save @geocine/gatsby-theme-organization
+    npm install --save @nuevolia/gatsby-theme-organization
     ```
-    > NOTE: If you are starting a new gatsby project, you should also install `react`, `react-dom` and `gatsby`. You may also use the [gasby-starter-organization](https://github.com/geocine/gatsby-starter-organization) if you don't want to set this up.
+    > NOTE: If you are starting a new gatsby project, you should also install `react`, `react-dom` and `gatsby`. You may also use the [gasby-starter-organization](https://github.com/nuevolia/gatsby-starter-organization) if you don't want to set this up.
 
 2.  Add the theme to your `gatsby-config.js`. For more options, [see below](#theme-options):
 
     ```js
     module.exports = {
-      plugins: ['@geocine/gatsby-theme-organization'],
+      plugins: ['@nuevolia/gatsby-theme-organization'],
     };
     ```
     > NOTE: If you are starting a new gatsby project, you should create the `gatsby-config.js` file first and the contents shown above
@@ -54,7 +54,7 @@ To use this theme in your Gatsby sites, follow these instructions:
 module.exports = {
   plugins: [
    { 
-     resolve: '@geocine/gatsby-theme-organization' 
+     resolve: '@nuevolia/gatsby-theme-organization' 
      options: {
        contentPath: 'data',
        organization: 'Organization',
@@ -75,14 +75,14 @@ TODO: Currently working on exposing theme properties through [theme-ui](https://
 You need to do [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/), create a folder at the following path in your site:
 
 ```
-src/@geocine/gatsby-theme-organization/assets
+src/@nuevolia/gatsby-theme-organization/assets
 ```
 Your file tree would look like this
 
 ```
 .
 ├── src
-│   └── @geocine
+│   └── @nuevolia
 │       └── gatsby-theme-organization
 │           ├── logo.svg // this will be your logo
 │           ├── icon.svg // this will be the icon for the navbar
@@ -102,7 +102,7 @@ You need to create a `data` folder on your root directory. Inside the `data` fol
 ├── data
 │   └── projects.yml // You need to create this file
 ├── src
-│   └── @geocine
+│   └── @nuevolia
 │       └── gatsby-theme-organixation
 │           └── ...
 ├── .gitignore
