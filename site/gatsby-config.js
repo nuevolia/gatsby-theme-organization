@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: 'gatsby-theme-organization',
+      resolve: '@nuevolia/gatsby-theme-organization',
       options: {
         contentPath: 'data',
         organization: 'EDSA',
