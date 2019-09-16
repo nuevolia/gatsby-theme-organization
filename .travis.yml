@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: fabien.zarifian@nuevolia.com
+  api_key:
+    secure: imDRtBGvc/mpIs3a5/uIq7n5/QTWmXmboXrCF7TR1MFT0kRYSDBpHMLtVWLUtKEhAHFzaNAl+HYMVf7LWT/XazZd6GYH0HchilE4ZTReb5RwWC9/NnE92MMPY0Kdv4pF023xyM/CT4vF4m0XlkF7iBD8dczK0wKWpNMBJZNNIA5bUAwnE6ulhPR8/+CUqH2hBVQYuVknh5LwCnijFeyJMlYLsELdmOKkzJPDSZ3VlFO0lWueI7veF3eSuNG3Fnrbmo5gFWpMNrgHKl7TbxCSCVq5cm3v7nob49PXf5SvGHMptBOJ7v93VnABeRm7frAOZrH/+FpTlDCFX7IhbNNv/X5qi//JILxrTzNcqUeMPibinsXouvhcagyBhJtDtK+yh2R3Iqi4Ohr676f7nQwRn/S7H6JPcCu+XRasg/RVXEcvXhiQ93Rh36av+mUZ9o3XMFgf3s/3QmUXtc1pjoWYUvZZuBWgw6SIPE43Pdbl5ge0Dbuq2ickpDCjh0dS7QyED4XXe4sOe8FuM+o+9U1Pgxt60gY0R5u+4gPJBzXvIzFqjfkbqKAkW+HD+16Q2+fbeGUKvS7wN8RsYzoasujwRhb21U+EUplo3UKp8ZBWxXuZOgBnbAxurSTMkk45/zgv/SfV/LruAnVFw+hSUWwvMl1cWLNdfpLVHoVbbgxKrOI=
+  on:
+    tags: true
+    repo: nuevolia/gatsby-theme-organization
