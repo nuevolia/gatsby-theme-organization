@@ -103,7 +103,7 @@ You need to create a `data` folder on your root directory. Inside the `data` fol
 │   └── projects.yml // You need to create this file
 ├── src
 │   └── @nuevolia
-│       └── gatsby-theme-organixation
+│       └── gatsby-theme-organization
 │           └── ...
 ├── .gitignore
 ├── gatsby-config.js
@@ -122,3 +122,7 @@ This is an example content of your `projects.yml` file
   url: https://github.com/organization/project2
   description: The Project 2
 ```
+
+### Special thanks
+
+This project is forked from [geocine/gatsby-theme-organization](https://github.com/geocine/gatsby-theme-organization).
