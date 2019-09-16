@@ -123,6 +123,6 @@ This is an example content of your `projects.yml` file
   description: The Project 2
 ```
 
-### Special thanks
+## Special thanks
 
 This project is forked from [geocine/gatsby-theme-organization](https://github.com/geocine/gatsby-theme-organization).
