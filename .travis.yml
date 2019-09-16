@@ -1,6 +1,12 @@
 language: node_js
 node_js:
   - 8
+cache: npm
+before_script:
+  - cd gatsby-theme-organization
+script:
+  - npm build
+  - npm clean
 deploy:
   provider: npm
   email: fabien.zarifian@nuevolia.com
