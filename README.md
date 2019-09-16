@@ -1,4 +1,4 @@
-# Gatsby Theme Organization
+# Gatsby Theme Organization ![travis](https://travis-ci.org/nuevolia/gatsby-theme-organization.svg?branch=master)
 
 Create a landing page for your Github Organization
 
@@ -7,7 +7,7 @@ Create a landing page for your Github Organization
 ## What you get from this theme
 
 - Style & Theming integration through [theme-ui](https://theme-ui.com/), [react-boostrap](https://react-bootstrap.github.io/), and [emotionjs](https://emotion.sh)
-- A landing page with all your organization projects, configurable through a YML file. 
+- A landing page with all your organization projects, configurable through a YML file.
 - Configurable logo, favicon, organization name and title
 
 ## Installation
@@ -29,7 +29,7 @@ To use this theme in your Gatsby sites, follow these instructions:
     };
     ```
     > NOTE: If you are starting a new gatsby project, you should create the `gatsby-config.js` file first and the contents shown above
-    
+
 3. Create a `data/projects.yml` file. See [details here](#how-to-customize-the-projects).
 
 4.  Start your site
@@ -53,8 +53,8 @@ To use this theme in your Gatsby sites, follow these instructions:
 ```js
 module.exports = {
   plugins: [
-   { 
-     resolve: '@nuevolia/gatsby-theme-organization' 
+   {
+     resolve: '@nuevolia/gatsby-theme-organization'
      options: {
        contentPath: 'data',
        organization: 'Organization',
@@ -68,7 +68,7 @@ module.exports = {
 };
 ```
 
-TODO: Currently working on exposing theme properties through [theme-ui](https://theme-ui.com/) to extend via [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/) 
+TODO: Currently working on exposing theme properties through [theme-ui](https://theme-ui.com/) to extend via [component shadowing](https://www.gatsbyjs.org/blog/2019-04-29-component-shadowing/)
 
 ### How to customize the logo
 
