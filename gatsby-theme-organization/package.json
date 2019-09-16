@@ -45,5 +45,8 @@
     "gatsby",
     "gatsby-theme",
     "gatsby-plugin"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
