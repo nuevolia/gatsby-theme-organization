@@ -5,8 +5,8 @@ cache: npm
 before_script:
   - cd gatsby-theme-organization
 script:
-  - npm build
-  - npm clean
+  - npm run build
+  - npm run clean
 deploy:
   provider: npm
   email: fabien.zarifian@nuevolia.com
