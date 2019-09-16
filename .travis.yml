@@ -5,6 +5,8 @@ node_js:
 cache: yarn
 script:
   - yarn workspace @nuevolia/gatsby-theme-organization install
+  - yarn workspace site install
+  - yarn workspaces info
   - yarn workspace site build
 jobs:
   include:
